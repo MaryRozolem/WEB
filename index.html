@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="CSS/styles.css">
+    <title>Vencer Sempre</title>
+</head>
+<body>
+    <div class="container">
+        <h1>Sistema de Reserva de Equipamentos Audiovisuais</h1>
+        <div class="menu">
+            <button onclick="showCadastroEquipamento()">Cadastrar Equipamento</button>
+            <button onclick="showListarEquipamentos()">Listar Equipamentos</button>
+            <button onclick="showCadastroUsuario()">Cadastrar Usuário</button>
+            <button onclick="showListarUsuarios()">Listar Usuários</button>
+            <button onclick="showFazerReserva()">Fazer Reserva</button>
+            <button onclick="showListarReservas()">Listar Reservas</button>
+        </div>
+        <div id="cadastroEquipamento" style="display: none;">
+            <!-- Formulário para cadastro de equipamento -->
+        </div>
+        <div id="listarEquipamentos" style="display: none;">
+            <!-- Lista de equipamentos -->
+        </div>
+        <div id="cadastroUsuario" style="display: none;">
+            <!-- Formulário para cadastro de usuário -->
+        </div>
+        <div id="listarUsuarios" style="display: none;">
+            <!-- Lista de usuários -->
+        </div>
+        <div id="fazerReserva" style="display: none;">
+            <!-- Formulário para fazer reserva -->
+        </div>
+        <div id="listarReservas" style="display: none;">
+            <!-- Lista de reservas -->
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
